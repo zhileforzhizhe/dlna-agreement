@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+}
+body {
+  max-width: 860px;
+  margin: auto;
+  padding: 2rem 2rem 5rem 2rem;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: #0a59f7;
+  cursor: pointer;
+  text-decoration: none;
+}
+#icon {
+  font-size: 0;
+  text-align: center;
+}
+#icon svg {
+  width: 4rem;
+  height: 4rem;
+}
+#privacyName {
+  margin: 2rem 0 0.5rem;
+  text-align: center;
+  font-size: 18px;
+}
+#update-time {
+  text-align: center;
+}
+#update-time span {
+  font-size: 14px;
+}
+.font-secondary {
+  color: rgba(0, 0, 0, 0.6);
+}
+.icon-emphasize {
+  color: rgba(10, 89, 247, 1);
+}
+h5 {
+  word-break: break-all;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+p {
+  word-break: break-all;
+  line-height: 1.4;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+  }
+  .font-secondary {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .icon-emphasize {
+    color: rgba(82, 145, 255, 1);
+  }
+  * {
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
